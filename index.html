@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">Introduction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Introduction Section -->
+  <section id="intro" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://storage.googleapis.com/pai-images/3f97d0f2979844998d360ba20a253820.jpeg" alt="Profile Picture" class="img-fluid rounded-circle">
+        </div>
+        <div class="col-md-8">
+          <h1>Muhammad Usman</h1>
+          <p class="lead">AI ENGINEER</p>
+          <p>Experienced AI engineer with a proven track record of developing innovative solutions in machine learning, deep learning, and natural language processing. Proficient in designing and implementing AI algorithms and models to solve complex business problems across various industries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Deep Learning</h4>
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>Computer Vision</h4>
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h4>Python</h4>
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/4/a/4af2dada5403d9ea7b1520cfbe202b1ac5f94308633c7defb1702e39e5f510a8/credit-card-fraud-detection-slide1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">CARD FRAUD DETECTION</h5>
+              <p class="card-text">A card transaction fraud system using decision tree classification is a machine learning-based approach to detect fraudulent transactions in credit card data. Decision tree classification is a popular algorithm for this task because it can effectively handle categorical and numerical features, and it provides interpretable decision rules.
+                This Detection is implemented using both Scikit-learn and Snap ML.</p>
+                <a href="https://github.com/US24MAN2327/CARDFRAUDDETECTION" class="btn btn-primary">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://cdn.supervisely.com/blog/human-pose-estimation/cover.png" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">POSE ESTIMATION</h5>
+              <p class="card-text">Pose estimation is a computer vision task that involves detecting and tracking key points on a person's body to infer their pose or posture using MediaPipe and OpenCV. MediaPipe is a popular open-source framework developed by Google that provides easy-to-use tools for various computer vision tasks, including pose estimation.Using MediaPipe in conjunction with OpenCV, an open-source computer vision library, allows to easily implement pose estimation in projects</p>
+              <a href="https://github.com/US24MAN2327/PoseEstimate" class="btn btn-primary">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="https://miro.medium.com/v2/resize:fit:689/1*jHzNpL-KagnaHUSHzPTPkA.jpeg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">SENTIMENT ANALYSIS OF POLITICIAN TWEETS</h5>
+              <p class="card-text">In the context of Twitter, sentiment analysis involves analyzing the text content of tweets to determine whether the sentiment expressed is positive, negative, neutral, or possibly more nuanced emotions.</p>
+              <a href="https://github.com/US24MAN2327/sentimentanalysis01" class="btn btn-primary">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col text-center">
+          <h5>Follow Me</h5>
+          <a href="https://www.linkedin.com/in/muhammad-usman-2aaa69241/" class="btn btn-social-icon btn-linkedin">
+            <i class="fab fa-linkedin-in"></i>linkedin
+          </a>
+          <a hrefhttps://github.com/US24MAN2327" class="btn btn-social-icon btn-github">
+            <i class="fab fa-github"></i> Github
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrappcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourfontawesomekit.js"></script>
+</body>
+</html>
